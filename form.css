@@ -23,12 +23,24 @@ body {
   }
 
   input,
-  textarea {
+  textarea,
+  select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .checkbox-container input {
+    width: auto;
+    margin-right: 10px;
   }
 
   button {
